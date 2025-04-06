@@ -1,0 +1,524 @@
+Mods: {
+	UnofficialCalamityWhips: {
+		Config: {
+			ItemHeader: Config
+
+			WhipDamageModifier: {
+				Label: Whip Damage Modifier
+				Tooltip: Modifies the damage of every whip in this mod by the chosen number. Use this to buff or nerf the mod as you see fit
+			}
+		}
+
+		Items: {
+			WulfrumChain: {
+				Tooltip: Ваши призванные существа будут пытаться атаковать врагов
+				DisplayName: Вульфрумовая Цепь
+			}
+
+			StaticScourge: {
+				Tooltip:
+					'''
+					Короткий, но молниеносный хлыст 
+					Заряжает врагов статическим электричеством, которое могут разрядить ваши призванные существа, выпуская искры
+					'''
+				DisplayName: Статический Бич
+			}
+
+			FungalFlailItem: {
+				Tooltip:
+					'''
+					Увеличивает урон призываемых существ на 4
+					Ваши призванные существа призывают самонаводящиеся споры, исцеляющие при поподании
+					'Не рекомендованно употреблять в пищу'
+					'''
+				DisplayName: Грибной Цеп
+			}
+
+			SkySplitterItem: {
+				Tooltip:
+					'''
+					Увеличивает урон призываемых существ на 5
+					Даёт Вашим хлыстам способность восполнить продолжительность полёта
+					'Лёгкий, как пёрышко'
+					'''
+				DisplayName: Небесный Рассекатель
+			}
+
+			CongeledDuoWhip: {
+				Tooltip:
+					'''
+					Увеличивает урон призываемых существ на 10
+					Зажмите левую кнопку мыши, чтобы ударить двумя слизистыми хлыстами в одном направлении
+					Нажмите правую кнопку мыши, чтобы ударить двумя слизистыми хлыстами в разных направлениях
+					'''
+				DisplayName: Застывший Двойной Хлыст
+			}
+
+			SulphuricScourge: {
+				Tooltip: Ваши призванные существа будут выпускать токсичные облака в воздух
+				DisplayName: Серный Бич
+			}
+
+			DaedalusWhipItem: {
+				Tooltip:
+					'''
+					Увеличивает урон призываемых существ на 11
+					При ударе призывает летающие снежинки, которые разбиваются на ледяные осколки
+					'Наполнен силой Криогена'
+					'''
+				DisplayName: Хлыст Дедала
+			}
+
+			PrismBreak: {
+				Tooltip:
+					'''
+					Ваши призванные существа выпускают залп хрустальной шрапнели
+					-Предмет, разработанный сообществом-
+					Дизайн от 'reldandle'
+					'''
+				DisplayName: Разлом Призмы
+			}
+
+			BrimstoneLash: {
+				Tooltip:
+					'''
+					Призывает Серное пламя
+					При попадании, Ваши призванные существа выпускают серный взрыв
+					'Тоска в пламени Геены'
+					'''
+				DisplayName: Плеть Тоски
+			}
+
+			StellarWindItem: {
+				Tooltip:
+					'''
+					Призывает Астральную Инфекцию
+					При попадании, Ваши призванные существа призывают астральные звёзды
+					'''
+				DisplayName: Звездный ветер
+			}
+
+			SandstoneReigns: {
+				Tooltip:
+					'''
+					Ваши призванные существа призывают песчаных акул
+					'Дайте им знать, что сегодня видели'
+					'''
+				DisplayName: Забытый Хищник
+			}
+
+			RightousDawn: {
+				Tooltip:
+					'''
+					При попадании, Ваши призванные существа призывают кальмаров звёздной пыли
+					'Стремитесь к Луне, и Вы приземлитесь среди звезд'
+					'''
+				DisplayName: Звёздный Скрежет
+			}
+
+			ResonateStriker: {
+				Tooltip: Наполняет Вас чистым резонансом за каждый удар, увеличивает Ваши скорость бега и скорость ударов
+				DisplayName: Резонирюущий Ударник
+			}
+
+			RighteousDawnTwo: {
+				Tooltip:
+					'''
+					Поджигает Священным Огнём
+					Если Вы находитесь рядом с целью, Ваши призванные существа исцелят и наделят Вас значительным сопротивлением
+					'Настоящий король ведет свои войска в бой'
+					'''
+				DisplayName: Праведный Рассвет
+			}
+
+			UnrelentingTorment: {
+				Tooltip:
+					'''
+					Выпускает когти, причиняющие ужасную боль
+					Ваши призванные существа призывают свободные когти из потустороннего мира
+					'''
+				DisplayName: Жестокая Пытка
+			}
+
+			SlimySling: {
+				Tooltip: Увеличивает радиус взмахов хлыстом на 8%
+				DisplayName: Липкая Перчатка
+			}
+
+			GelatinousGlove: {
+				Tooltip:
+					'''
+					Увеличивает скорость ближнего боя и взмахов хлыстом на 12%
+					Включает автоматический взмах для оружия ближнего боя и хлыстов
+					Увеличивает радиус взмахов хлыстом на 15%
+					Удары хлыстом замедляют обычных врагов
+					Увеличивает скорость после удара хлыстом
+					'''
+				DisplayName: Старая Перчатка
+			}
+
+			CrystalLodestone: {
+				Tooltip: Ваши хлысты выпускают взрывающиеся валуны
+				DisplayName: Запретные Останки
+			}
+
+			FossilizedAmber: {
+				Tooltip: Даёт 8 защиты после удара хлыстом
+				DisplayName: Окаменевший Янтарь
+			}
+
+			CrystalOfResilience: {
+				Tooltip:
+					'''
+					Ваши хлысты выпускают взрывающиеся валуны
+					Даёт 8 защиты после удара хлыстом
+					Скорость копания увеличена на 20%, урон уменьшен на 5% и +10 защиты если в пещерах или преисподней
+					'''
+				DisplayName: Кристаллизованный Магнит
+			}
+
+			Centauri: {
+				Tooltip:
+					'''
+					50 урона метки призыва
+					Может швырять планеты
+					'Ближайший, но далеко за пределами...'
+					'''
+				DisplayName: Проксима Центавра
+			}
+
+			FlinxFurMitten: {
+				Tooltip:
+					'''
+					Увеличивает скорость ближнего боя и взмахов хлыстом на 12%
+					Включает автоматический взмах для оружия ближнего боя и хлыстов
+					Удары хлыстом замедляют врагов без сопротивления к замешательству
+					Увеличивает радиус взмахов хлыстом на 8%
+					'''
+				DisplayName: Варежки из Меха Флинкса
+			}
+
+			RingOfAlacrity: {
+				Tooltip: Увеличивает скорость передвижения на 10% после удара хлыстом
+				DisplayName: Кольцо Готовности
+			}
+
+			SuspiciousLeafExtract: {
+				Tooltip: После удара хлыстом образуется круг из вращающихся листьев
+				DisplayName: Экстракт Подозрительных Листьев
+			}
+
+			BoulderItem: {
+				Tooltip: Ваши хлысты выпускают каменные валуны
+				DisplayName: Каменный осколок
+			}
+
+			BlossomsBlessingItem: {
+				Tooltip:
+					'''
+					Дает Вам Благословение Цвететния при попадании
+					шанс 25% выстрелить спорой
+					30 урона метки призыва
+					Ваши призванные существа будут пытаться атаковать врагов
+					'''
+				DisplayName: Благословение Цветения
+			}
+
+			CoralCrusherItem: {
+				Tooltip:
+					'''
+					Ваши призванные существа призывают фрагменты кораллов
+					6 урона метки призыва
+					Ваши призванные существа будут пытаться атаковать врагов
+					'''
+				DisplayName: Коралловый Дробитель
+			}
+
+			DevourersMaw: {
+				Tooltip:
+					'''
+					При попадании по цели, Вы испытываете голод Пожирателя, который дает Вам силу по мере того, как часто Вы атакуете
+					Наносит Адское пламя Богоубийцы
+					-Предмет, разработанный сообществом-
+					Дизайн от 'MothEggs, Paige и KumaTerra'
+					'''
+				DisplayName: Пасть Пожирателя
+			}
+
+			SirensSerenityItem: {
+				Tooltip:
+					'''
+					Дружеские отношения между Левиафаном и Анахитой вдохновляют Вас и Ваших призванных существ
+					18 урона метки призыва
+					Ваши призванные существа будут пытаться атаковать врагов
+					Ваши призванные существа иногда будут выбрасывать сферы, которые будут исцелять и давать дополнительный эффект
+					-Предмет, разработанный сообществом-
+					Дизайн от 'CharlieTheFatCat'
+					'''
+				DisplayName: Безмятежность Сирены
+			}
+
+			DivineHeadpat: {
+				Tooltip: Глажу Глажу
+				DisplayName: Божественный Гладильщик по Голове
+			}
+
+			BuffOrb: {
+				DisplayName: Сфера Усиления
+				Tooltip: ""
+			}
+
+			HealingOrb: {
+				DisplayName: Сфера Исцеления
+				Tooltip: ""
+			}
+		}
+
+		Buffs: {
+			PureResonance: {
+				DisplayName: Pure Resonance
+				Description: Increases melee and movement speed
+			}
+
+			SkyBuff: {
+				DisplayName: Aerial
+				Description: Increases flight time
+			}
+
+			StarlightTouch: {
+				DisplayName: Starlight Touch
+				Description: Increases defense by 20 and increases life regeneration
+			}
+
+			RighteousBlessing: {
+				DisplayName: Righteous Blessing
+				Description: Increases defense by 30 and increases life regeneration
+			}
+
+			StonesEndurance: {
+				DisplayName: Controlled Petrification
+				Description: 10% damage reduction
+			}
+
+			Alacrity: {
+				DisplayName: Alacrity
+				Description: 10% increased speed
+			}
+
+			BlossomsBlessingBuff: {
+				DisplayName: Blossom's Blessing
+				Description: Increases defense, life regen and movement speed
+			}
+
+			DevourersHunger: {
+				DisplayName: Devourer's Hunger
+				Description: Gain increasing defense and summon damage the more you hit with Devourer's Maw
+			}
+
+			HealingMelody: {
+				DisplayName: Healing Melody
+				Description: Increases defense and life regeneration
+			}
+
+			BitterCold: {
+				DisplayName: Mods.UnofficialCalamityWhips.BuffName.BitterCold
+				Description: Mods.UnofficialCalamityWhips.BuffDescription.BitterCold
+			}
+
+			BrimstoneTagDebuff: {
+				DisplayName: Mods.UnofficialCalamityWhips.BuffName.BrimstoneTagDebuff
+				Description: Mods.UnofficialCalamityWhips.BuffDescription.BrimstoneTagDebuff
+			}
+
+			DaedalusWhipDebuff: {
+				DisplayName: Mods.UnofficialCalamityWhips.BuffName.DaedalusWhipDebuff
+				Description: Mods.UnofficialCalamityWhips.BuffDescription.DaedalusWhipDebuff
+			}
+
+			PrismTagDebuff: {
+				DisplayName: Mods.UnofficialCalamityWhips.BuffName.PrismTagDebuff
+				Description: Mods.UnofficialCalamityWhips.BuffDescription.PrismTagDebuff
+			}
+
+			SandstoneTagDebuff: {
+				DisplayName: Mods.UnofficialCalamityWhips.BuffName.SandstoneTagDebuff
+				Description: Mods.UnofficialCalamityWhips.BuffDescription.SandstoneTagDebuff
+			}
+
+			SirensSerenityDebuff: {
+				DisplayName: Mods.UnofficialCalamityWhips.BuffName.SirensSerenityDebuff
+				Description: Mods.UnofficialCalamityWhips.BuffDescription.SirensSerenityDebuff
+			}
+
+			StarScraperDebuff: {
+				DisplayName: Mods.UnofficialCalamityWhips.BuffName.StarScraperDebuff
+				Description: Mods.UnofficialCalamityWhips.BuffDescription.StarScraperDebuff
+			}
+
+			StellarWindDebuff: {
+				DisplayName: Mods.UnofficialCalamityWhips.BuffName.StellarWindDebuff
+				Description: Mods.UnofficialCalamityWhips.BuffDescription.StellarWindDebuff
+			}
+
+			SulphuricTagDebuff: {
+				DisplayName: Mods.UnofficialCalamityWhips.BuffName.SulphuricTagDebuff
+				Description: Mods.UnofficialCalamityWhips.BuffDescription.SulphuricTagDebuff
+			}
+
+			BlossomsBlessingDebuff: {
+				DisplayName: Mods.UnofficialCalamityWhips.BuffName.BlossomsBlessingDebuff
+				Description: Mods.UnofficialCalamityWhips.BuffDescription.BlossomsBlessingDebuff
+			}
+
+			CentauriDebuff: {
+				DisplayName: Mods.UnofficialCalamityWhips.BuffName.CentauriDebuff
+				Description: Mods.UnofficialCalamityWhips.BuffDescription.CentauriDebuff
+			}
+
+			DevourerTagDebuff: {
+				DisplayName: Mods.UnofficialCalamityWhips.BuffName.DevourerTagDebuff
+				Description: Mods.UnofficialCalamityWhips.BuffDescription.DevourerTagDebuff
+			}
+
+			ResonateTagDebuff: {
+				DisplayName: Mods.UnofficialCalamityWhips.BuffName.ResonateTagDebuff
+				Description: Mods.UnofficialCalamityWhips.BuffDescription.ResonateTagDebuff
+			}
+
+			RighteousTagDebuff: {
+				DisplayName: Mods.UnofficialCalamityWhips.BuffName.RighteousTagDebuff
+				Description: Mods.UnofficialCalamityWhips.BuffDescription.RighteousTagDebuff
+			}
+
+			TormentTagDebuff: {
+				DisplayName: Mods.UnofficialCalamityWhips.BuffName.TormentTagDebuff
+				Description: Mods.UnofficialCalamityWhips.BuffDescription.TormentTagDebuff
+			}
+
+			CongeledTagDebuff: {
+				DisplayName: Mods.UnofficialCalamityWhips.BuffName.CongeledTagDebuff
+				Description: Mods.UnofficialCalamityWhips.BuffDescription.CongeledTagDebuff
+			}
+
+			CoralCrusherDebuff: {
+				DisplayName: Mods.UnofficialCalamityWhips.BuffName.CoralCrusherDebuff
+				Description: Mods.UnofficialCalamityWhips.BuffDescription.CoralCrusherDebuff
+			}
+
+			FungalFlailDebuff: {
+				DisplayName: Mods.UnofficialCalamityWhips.BuffName.FungalFlailDebuff
+				Description: Mods.UnofficialCalamityWhips.BuffDescription.FungalFlailDebuff
+			}
+
+			SkySplitterDebuff: {
+				DisplayName: Mods.UnofficialCalamityWhips.BuffName.SkySplitterDebuff
+				Description: Mods.UnofficialCalamityWhips.BuffDescription.SkySplitterDebuff
+			}
+
+			StaticTagDebuff: {
+				DisplayName: Mods.UnofficialCalamityWhips.BuffName.StaticTagDebuff
+				Description: Mods.UnofficialCalamityWhips.BuffDescription.StaticTagDebuff
+			}
+		}
+
+		Projectiles: {
+			BoulderProj.DisplayName: Boulder
+			BoulderProj1.DisplayName: Boulder
+			BoulderProj2.DisplayName: Boulder
+			OrbitLeaf.DisplayName: Leaf
+			BrimstoneLashProjectile.DisplayName: Brimstone Lash
+			DaedalusWhipProj.DisplayName: Daedalus Whip
+			IceShard.DisplayName: Ice Shard
+			SnowBall.DisplayName: Snowball
+			PrismBreakProjectile.DisplayName: Prism Break
+			SandstoneReignsProjectile.DisplayName: Sandstone Reigns
+			SandstoneShark.DisplayName: Sandstone Shark
+			SirensSerenityProj.DisplayName: Sirens Serenity
+			StardustSquid.DisplayName: Stardust Squid
+			StarScraperProj.DisplayName: Star Scraper
+			StarScrapperDisjoint.DisplayName: Star Scrapper Scythe
+			StellarWindProj.DisplayName: Stellar Wind
+			SulphuricScourgeProjectile.DisplayName: Sulphuric Scourge
+			BlossomsBlessingProj.DisplayName: Blossoms Blessing
+			CentauriProj.DisplayName: Centauri
+			jupiter.DisplayName: Jupiter
+			Mercury.DisplayName: Mercury
+			Neptune.DisplayName: Neptune
+			Saturn.DisplayName: Saturn
+			Uranus.DisplayName: Uranus
+			Venus.DisplayName: Venus
+			DevourersMawProjectile.DisplayName: Devourers Maw
+			ResonateStrikerProjectile.DisplayName: Resonate Striker
+			RighteousDawnProjectile.DisplayName: Righteous Dawn
+			GhastlyHandProjectile.DisplayName: Ghastly Hand
+			UnrelentingTormentProjectile.DisplayName: Unrelenting Torment
+			CongeledCorruptProjectile.DisplayName: Congeled Corrupt
+			CongeledCrimsonProjectile.DisplayName: Congeled Crimson
+			SludgeJudgeProj.DisplayName: Sludge Judge
+			SludgeJudgeProj1.DisplayName: Sludge Judge
+			CoralCrusherProj.DisplayName: Coral Crusher
+			CoralProj.DisplayName: Coral Crusher
+			CoralProj2.DisplayName: Coral Crusher
+			FungalFlailProj.DisplayName: Fungal Flail
+			SkySplitterProj.DisplayName: Sky Splitter
+			StaticScourgeProjectile.DisplayName: Static Scourge
+			WulfrumChainProjectile.DisplayName: Wulfrum Chain
+		}
+
+		Configs: {
+			UnofficialCalamityWhipsConfig: {
+				DisplayName: Unofficial Calamity Whips Config
+				Headers.Config: Config Header
+
+				WhipDamageModifier: {
+					Label: Whip Damage Modifer
+					Tooltip: Modifies the damage of every whip in this mod by the chosen number. Use this to buff or nerf the mod as you see fit
+				}
+
+				AddArmorStats: {
+					Label: Add Whip Stats to Calamity Armors
+					Tooltip: Adds extra whip stats to some calamity armors while enabled, to make whips more viable
+				}
+
+				AllowTagStacking: {
+					Label: Enable Tag Debuff Stacking
+					Tooltip: Allows whips in this mod to stack their tag effects. If set to false, all previous tag effects will be removed on applying a new one
+				}
+
+				CatalystDisclaimer: {
+					Label: Catalyst Disclaimer
+					Tooltip: Disable this to remove the disclaimer advertising the Catalyst Mod
+				}
+			}
+		}
+	}
+
+	UnofficialCalamityWhipsRu: {
+		Configs: {
+			UnofficialCalamityWhipsRuConfig: {
+				CatalystDisclaimer: {
+					// Tooltip: Disable this to remove the disclaimer advertising the Catalyst Mod
+					// Label: Catalyst Disclaimer
+				}
+
+				AllowTagStacking: {
+					// Tooltip: Allows whips in this mod to stack their tag effects. If set to false, all previous tag effects will be removed on applying a new one
+					// Label: Enable Tag Debuff Stacking
+				}
+
+				AddArmorStats: {
+					// Tooltip: Adds extra whip stats to some calamity armors while enabled, to make whips more viable
+					// Label: Add Whip Stats to Calamity Armors
+				}
+
+				WhipDamageModifier: {
+					// Tooltip: Modifies the damage of every whip in this mod by the chosen number. Use this to buff or nerf the mod as you see fit
+					// Label: Whip Damage Modifer
+				}
+
+				// Headers.Config: Config Header
+				// DisplayName: Unofficial Calamity Whips Ru Config
+			}
+		}
+	}
+}

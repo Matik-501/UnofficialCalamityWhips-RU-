@@ -1,0 +1,4 @@
+displayName = Unofficial Calamity Whips(RU)
+author = Matik501 and True devourer of pancakes
+modReferences = CalamityMod
+version = 1.1.7
